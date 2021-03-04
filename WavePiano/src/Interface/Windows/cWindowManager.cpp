@@ -7,7 +7,7 @@ namespace Interface {
 	void cWindowManager::registerWindow(std::shared_ptr<IManagedWindow> window)
 	{
 		assert(pManagedWindow_Map.insert(std::make_pair(window->getWindowID(), window)).second);
-		window.get()->deploy();
+		window->deploy();
 	}
 
 	void cWindowManager::disposeWindows()
