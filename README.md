@@ -4,7 +4,7 @@ Virtual piano keyboard application made as part of college project.
 ## Description
 Creates sounds from various math functions.
 This small application with Graphical Interface was created as additional part of college course. 
-It allows user to play music using their own physical computer keyboard or a mouse, represented with pianoboard inside software.
+It allows user to play music using virtual piano keyboard.
 Program includes functions used to generate sounds during runtime, allowing for dynamic tweaking of preset settings.
 
 **Included features:**
