@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AppWavePiano.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parser\JsonParsers.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\Commons.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SoundGen\WaveSynth.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SoundGen\Instrument.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interface\SpriteAnimator.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interface\ManagedGUI.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interface\Windows\cWindowManager.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interface\Windows\MainPianoWindow.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interface\Windows\SelectInstrumentWindow.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Common\Paths.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\Names.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\Display.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\Utility.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\Commons.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AppWavePiano.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parser\JsonParsers.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SoundGen\WaveSynth.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SoundGen\Instrument.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\KeyRemap.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Interface\SpriteAnimator.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Interface\ManagedGUI.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Interface\cInputEventHandler.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Interface\InterfaceDefines.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Interface\Windows\cWindowManager.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Interface\Windows\ManagedWindows.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Interface\Windows\MainPianoWindowButtons.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Interface\Windows\MainPianoWindow.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Interface\Windows\SelectInstrumentWindow.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Interface\Windows\SelectInstrumentWindowButtons.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Interface\IManagedButton.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Interface\IManagedWindow.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Textures\SpriteSheet\SelectorButton.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\HeavySine.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\instrumentDefault.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\Sine.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\Square.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\ZAlien.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Assets\Textures\SpriteSheet\LeftSwitchButton.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Assets\Textures\SpriteSheet\Missing.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Assets\Textures\SpriteSheet\PianoButton.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Assets\Textures\SpriteSheet\RightSwitchButton.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\HeavyPulse.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\Orient.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\Pulse.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\Retro.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\SoundPresets\CarHorns.sGen">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="Assets\SoundPresets\HeavyPulse.sGen">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="Assets\SoundPresets\HeavySine.sGen">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="Assets\Sprites\InstrumentDefaultSelector.aSprite">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="Assets\SoundPresets\Orient.sGen">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="Assets\Sprites\PianoButton.aSprite">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="Assets\SoundPresets\Pulse.sGen">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="Assets\SoundPresets\Retro.sGen">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="Assets\Sprites\SelectorButton.aSprite">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="Assets\SoundPresets\Sine.sGen">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="Assets\SoundPresets\Space.sGen">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="Assets\SoundPresets\Square.sGen">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="Assets\Sprites\SwitchButtonLeft.aSprite">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="Assets\Sprites\SwitchButtonRight.aSprite">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="Assets\SoundPresets\ZAlien.sGen">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="Assets\Textures\SpriteSheet\Instruments\Template.psd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Assets\Default\FontDefault.otf">
+      <Filter>Pliki zasobów</Filter>
+    </Font>
+  </ItemGroup>
+</Project>

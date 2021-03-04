@@ -1,0 +1,9 @@
+{
+	"waveName":"Sine",
+	"startFrequency":10,
+	"amplitude":1,
+	"gainIncrease":20,
+	"gainDecrease":15,
+	"noteIncrease":11,
+	"additionalParameter":145
+}

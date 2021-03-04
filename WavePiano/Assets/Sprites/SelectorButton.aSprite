@@ -1,0 +1,9 @@
+{
+   "textureLocation":"SelectorButton.png",
+   "tileSize":[
+      2,
+      2
+   ],
+   "frames":4,
+   "framerate":1
+}

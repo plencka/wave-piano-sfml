@@ -1,0 +1,9 @@
+{
+	"waveName":"Pluck",
+	"startFrequency":11,
+	"amplitude":1,
+	"gainIncrease":44,
+	"gainDecrease":20,
+	"noteIncrease":15,
+	"additionalParameter":0
+}

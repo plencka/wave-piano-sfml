@@ -1,0 +1,9 @@
+{
+	"waveName":"Alien",
+	"startFrequency":10,
+	"amplitude":1,
+	"gainIncrease":50,
+	"gainDecrease":25,
+	"noteIncrease":80,
+	"additionalParameter":25
+}

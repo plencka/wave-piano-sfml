@@ -1,0 +1,9 @@
+{
+   "textureLocation":"PianoButton.png",
+   "tileSize":[
+      4,
+      1
+   ],
+   "frames":4,
+   "framerate":1
+}

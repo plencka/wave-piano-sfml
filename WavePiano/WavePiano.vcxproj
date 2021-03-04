@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{DE0587AA-B904-4BCB-99BB-E6C92CC1D744}</ProjectGuid>
+    <RootNamespace>WavePiano</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AppWavePiano.cpp" />
+    <ClCompile Include="src\Common\Commons.cpp" />
+    <ClCompile Include="src\Interface\ManagedGUI.cpp" />
+    <ClCompile Include="src\Interface\SpriteAnimator.cpp" />
+    <ClCompile Include="src\Interface\Windows\MainPianoWindow.cpp" />
+    <ClCompile Include="src\Interface\Windows\cWindowManager.cpp" />
+    <ClCompile Include="src\Interface\Windows\SelectInstrumentWindow.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Parser\JsonParsers.cpp" />
+    <ClCompile Include="src\SoundGen\Instrument.cpp" />
+    <ClCompile Include="src\SoundGen\WaveSynth.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\AppWavePiano.h" />
+    <ClInclude Include="src\Common\Commons.h" />
+    <ClInclude Include="src\Common\Display.h" />
+    <ClInclude Include="src\Common\KeyRemap.h" />
+    <ClInclude Include="src\Common\Names.h" />
+    <ClInclude Include="src\Common\Paths.h" />
+    <ClInclude Include="src\Common\Utility.h" />
+    <ClInclude Include="src\Interface\cInputEventHandler.h" />
+    <ClInclude Include="src\Interface\IManagedButton.h" />
+    <ClInclude Include="src\Interface\IManagedWindow.h" />
+    <ClInclude Include="src\Interface\InterfaceDefines.h" />
+    <ClInclude Include="src\Interface\ManagedGUI.h" />
+    <ClInclude Include="src\Interface\SpriteAnimator.h" />
+    <ClInclude Include="src\Interface\Windows\cWindowManager.h" />
+    <ClInclude Include="src\Interface\Windows\MainPianoWindowButtons.h" />
+    <ClInclude Include="src\Interface\Windows\ManagedWindows.h" />
+    <ClInclude Include="src\Interface\Windows\SelectInstrumentWindow.h" />
+    <ClInclude Include="src\Interface\Windows\SelectInstrumentWindowButtons.h" />
+    <ClInclude Include="src\Parser\JsonParsers.h" />
+    <ClInclude Include="src\SoundGen\Instrument.h" />
+    <ClInclude Include="src\SoundGen\WaveSynth.h" />
+    <ClInclude Include="src\Interface\Windows\MainPianoWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\HeavyPulse.png" />
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\HeavySine.png" />
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\instrumentDefault.png" />
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\Orient.png" />
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\Pulse.png" />
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\Retro.png" />
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\Sine.png" />
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\Square.png" />
+    <Image Include="Assets\Textures\SpriteSheet\Instruments\ZAlien.png" />
+    <Image Include="Assets\Textures\SpriteSheet\LeftSwitchButton.png" />
+    <Image Include="Assets\Textures\SpriteSheet\Missing.png" />
+    <Image Include="Assets\Textures\SpriteSheet\PianoButton.png" />
+    <Image Include="Assets\Textures\SpriteSheet\RightSwitchButton.png" />
+    <Image Include="Assets\Textures\SpriteSheet\SelectorButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\SoundPresets\CarHorns.sGen" />
+    <None Include="Assets\SoundPresets\HeavyPulse.sGen" />
+    <None Include="Assets\SoundPresets\HeavySine.sGen" />
+    <None Include="Assets\SoundPresets\Orient.sGen" />
+    <None Include="Assets\SoundPresets\Pulse.sGen" />
+    <None Include="Assets\SoundPresets\Retro.sGen" />
+    <None Include="Assets\SoundPresets\Sine.sGen" />
+    <None Include="Assets\SoundPresets\Space.sGen" />
+    <None Include="Assets\SoundPresets\Square.sGen" />
+    <None Include="Assets\SoundPresets\ZAlien.sGen" />
+    <None Include="Assets\Sprites\InstrumentDefaultSelector.aSprite" />
+    <None Include="Assets\Sprites\PianoButton.aSprite" />
+    <None Include="Assets\Sprites\SelectorButton.aSprite" />
+    <None Include="Assets\Sprites\SwitchButtonLeft.aSprite" />
+    <None Include="Assets\Sprites\SwitchButtonRight.aSprite" />
+    <None Include="Assets\Textures\SpriteSheet\Instruments\Template.psd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Assets\Default\FontDefault.otf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
