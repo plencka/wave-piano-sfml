@@ -14,7 +14,10 @@ Program includes functions used to generate sounds during runtime, allowing for 
 - Custom Graphical Interface handler.
 - Selection of instruments, accessed through selection menu.
 
-![mainWindowImage](./resources/PianoScreen_02.PNG?raw=true)
+
+<p align="center">
+  <img height="350" src="./resources/PianoScreen_02.PNG?raw=true">
+</p>
 
 ### Additional libraries and other warnings
 This project was created using latest C++ features. It's recommended to use at least latest/C++20 compatible version.
