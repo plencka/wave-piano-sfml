@@ -139,7 +139,7 @@
     <Image Include="Assets\Textures\SpriteSheet\LeftSwitchButton.png">
       <Filter>Pliki zasobów</Filter>
     </Image>
-    <Image Include="Assets\Textures\SpriteSheet\Missing.png">
+    <Image Include="Assets\Default\Missing.png">
       <Filter>Pliki zasobów</Filter>
     </Image>
     <Image Include="Assets\Textures\SpriteSheet\PianoButton.png">

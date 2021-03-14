@@ -29,7 +29,7 @@ namespace WaverPiano {
 			const char* SoundPresets = "Assets/SoundPresets/";
 		}
 		namespace DefaultAsset {
-			const char* texture = "Default/Missing.png";
+			const char* texture = "Assets/Default/Missing.png";
 			const char* font = "Assets/Default/FontDefault.otf";
 			const char* soundWave = "sine";
 		}

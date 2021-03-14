@@ -176,7 +176,7 @@
     <Image Include="Assets\Textures\SpriteSheet\Instruments\Square.png" />
     <Image Include="Assets\Textures\SpriteSheet\Instruments\ZAlien.png" />
     <Image Include="Assets\Textures\SpriteSheet\LeftSwitchButton.png" />
-    <Image Include="Assets\Textures\SpriteSheet\Missing.png" />
+    <Image Include="Assets\Default\Missing.png" />
     <Image Include="Assets\Textures\SpriteSheet\PianoButton.png" />
     <Image Include="Assets\Textures\SpriteSheet\RightSwitchButton.png" />
     <Image Include="Assets\Textures\SpriteSheet\SelectorButton.png" />
