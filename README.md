@@ -1,4 +1,4 @@
-# WavePiano
+# wave-piano-sfml
 A virtual piano keyboard application that was created as a project for a college course. It enables users to play music using a virtual keyboard and generates sounds from various mathematical functions. The program has a graphical interface that allows users to select different instruments and tweak the preset settings dynamically while playing the sounds.
 
 ![mainWindowImage](./resources/PianoScreen_01.PNG?raw=true)
